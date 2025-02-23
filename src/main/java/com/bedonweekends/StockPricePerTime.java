@@ -10,7 +10,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StockPricePerTime {
-    private String timestamp;
-    private double price;
+    private long price;
     private boolean jump;
 }

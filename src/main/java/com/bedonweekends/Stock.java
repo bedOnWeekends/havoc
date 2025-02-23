@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.List;
+import java.util.Map;
 
 @Getter
 @Setter
@@ -13,5 +13,5 @@ import java.util.List;
 @NoArgsConstructor
 public class Stock {
     private String name;
-    private List<StockPricePerTime> stockPricePerTimeList;
+    private Map<String, StockPricePerTime> stockPricePerTimeMap;
 }
