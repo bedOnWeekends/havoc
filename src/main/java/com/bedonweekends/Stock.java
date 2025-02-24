@@ -13,5 +13,5 @@ import java.util.Map;
 @NoArgsConstructor
 public class Stock {
     private String name;
-    private Map<String, StockPricePerTime> stockPricePerTimeMap;
+    private Map<String, Long> stockPricePerTimeMap;
 }
